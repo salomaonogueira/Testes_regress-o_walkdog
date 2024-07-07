@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-07-06T19:30:07.927754" rpa="false" schemaversion="5">
+<suite id="s1" name="Walkdog-Robot" source="C:\QAx\Projects\walkdog-robot">
+<suite id="s1-s1" name="Signup" source="C:\QAx\Projects\walkdog-robot\signup.robot">
+<test id="s1-s1-t1" name="Deve poder cadastrar um novo dog walker" line="8">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-07-06T19:30:09.684765" level="INFO">${name} = Fernando Papito</msg>
+<var>${name}</var>
+<arg>Fernando Papito</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-07-06T19:30:09.683745" elapsed="0.001020"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-07-06T19:30:09.685743" level="INFO">${email} = papito@gmail.com</msg>
+<var>${email}</var>
+<arg>papito@gmail.com</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-07-06T19:30:09.685743" elapsed="0.001043"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-07-06T19:30:09.687744" level="INFO">${cpf} = 00000014141</msg>
+<var>${cpf}</var>
+<arg>00000014141</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-07-06T19:30:09.686786" elapsed="0.000958"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-07-06T19:30:09.687744" level="INFO">${cep} = 04534011</msg>
+<var>${cep}</var>
+<arg>04534011</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-07-06T19:30:09.687744" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-07-06T19:30:09.689248" level="INFO">${addressStreet} = Rua Joaquim Floriano</msg>
+<var>${addressStreet}</var>
+<arg>Rua Joaquim Floriano</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-07-06T19:30:09.689248" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-07-06T19:30:09.690251" level="INFO">${addressDistrict} = Itaim Bibi</msg>
+<var>${addressDistrict}</var>
+<arg>Itaim Bibi</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-07-06T19:30:09.690251" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-07-06T19:30:09.691252" level="INFO">${addressCityUf} = São Paulo/SP</msg>
+<var>${addressCityUf}</var>
+<arg>São Paulo/SP</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-07-06T19:30:09.691252" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-07-06T19:30:09.692250" level="INFO">${addressNumber} = 1000</msg>
+<var>${addressNumber}</var>
+<arg>1000</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-07-06T19:30:09.692250" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-07-06T19:30:09.693250" level="INFO">${adressDetails} = Apto 28</msg>
+<var>${adressDetails}</var>
+<arg>Apto 28</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-07-06T19:30:09.693250" elapsed="0.000997"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-07-06T19:30:09.695249" level="INFO">${cnh} = Burro.jpg</msg>
+<var>${cnh}</var>
+<arg>Burro.jpg</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-07-06T19:30:09.694247" elapsed="0.001002"/>
+</kw>
+<kw name=" Go to signup page">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-07-06T19:30:09.697266" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\QAx\\Projects\\walkdog-robot\\results\\browser\\traces\\47cc2d6f-f1b1-4477-bff2-4f28b36281ad"}</msg>
+<msg time="2024-07-06T19:30:09.972884" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\QAx\\Projects\\walkdog-robot\\results\\browser\\traces\\47cc2d6f-f1b1-4477-bff2-4f28b36281ad"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-07-06T19:30:09.696274" elapsed="0.276610"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-07-06T19:30:20.254710" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2024-07-06T19:30:20.255733" level="INFO">See also file:///C:/QAx/Projects/walkdog-robot/results/playwright-log.txt for additional details.</msg>
+<msg time="2024-07-06T19:30:20.255733" level="FAIL">TimeoutError: page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://walkdog.vercel.app/signup", waiting until "load"[22m
+
+Tip: Use "Set Browser Timeout" for increasing the timeout.</msg>
+<arg>https://walkdog.vercel.app/signup</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="FAIL" start="2024-07-06T19:30:09.972884" elapsed="10.289573">TimeoutError: page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://walkdog.vercel.app/signup", waiting until "load"[22m
+
+Tip: Use "Set Browser Timeout" for increasing the timeout.</status>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<arg>form h1</arg>
+<arg>visible</arg>
+<arg>5000</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="NOT RUN" start="2024-07-06T19:30:20.262457" elapsed="0.000000"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<arg>form h1</arg>
+<arg>equal</arg>
+<arg>Faça seu cadastro</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2024-07-06T19:30:20.262457" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-07-06T19:30:09.695249" elapsed="10.567208">TimeoutError: page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://walkdog.vercel.app/signup", waiting until "load"[22m
+
+Tip: Use "Set Browser Timeout" for increasing the timeout.</status>
+</kw>
+<kw name="Fill signup form">
+<arg>${name}</arg>
+<arg>${email}</arg>
+<arg>${cpf}</arg>
+<arg>${cep}</arg>
+<arg>${addressStreet}</arg>
+<arg>${addressDistrict}</arg>
+<arg>${addressCityUf}</arg>
+<arg>${addressNumber}</arg>
+<arg>${adressDetails}</arg>
+<arg>${cnh}</arg>
+<status status="NOT RUN" start="2024-07-06T19:30:20.263988" elapsed="0.000000"/>
+</kw>
+<kw name="Submit signup form">
+<status status="NOT RUN" start="2024-07-06T19:30:20.264996" elapsed="0.000000"/>
+</kw>
+<kw name="Popup should be">
+<arg>Recebemos o seu cadastro e em breve retornaremos o contato.</arg>
+<status status="NOT RUN" start="2024-07-06T19:30:20.264996" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-07-06T19:30:09.679746" elapsed="10.586576">TimeoutError: page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://walkdog.vercel.app/signup", waiting until "load"[22m
+
+Tip: Use "Set Browser Timeout" for increasing the timeout.</status>
+</test>
+<doc>Suite de testes de cadastro de dog walker</doc>
+<status status="FAIL" start="2024-07-06T19:30:07.965506" elapsed="12.340102"/>
+</suite>
+<status status="FAIL" start="2024-07-06T19:30:07.934775" elapsed="12.377091"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Walkdog-Robot">Walkdog-Robot</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Signup">Walkdog-Robot.Signup</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

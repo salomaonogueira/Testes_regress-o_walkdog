@@ -1,0 +1,62 @@
+{"level":30,"time":"2024-07-06T23:30:08.917Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Listening on 56988"}
+(node:5376) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-07-06T23:30:09.677Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:09.677Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:09.681Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:09.682Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:09.699Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-07-06T23:30:09.969Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Adding browser to stack: chromium, version: 127.0.6533.17"}
+{"level":30,"time":"2024-07-06T23:30:09.970Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-07-06T23:30:09.970Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-07-06T23:30:09.976Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-07-06T23:30:09.977Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-07-06T23:30:09.999Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Changed active context"}
+{"level":30,"time":"2024-07-06T23:30:10.174Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Video path: undefined"}
+{"level":30,"time":"2024-07-06T23:30:10.174Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Changed active page"}
+{"level":30,"time":"2024-07-06T23:30:20.184Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: Timeout 10000ms exceeded.
+Call log:
+  [2m- navigating to "https://walkdog.vercel.app/signup", waiting until "load"[22m
+
+    at newPage (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10361:18)
+    at async PlaywrightServer.newPage (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10691:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2024-07-06T23:30:20.222Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:8712:11)
+    at takeScreenshot (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:8756:3)
+    at PlaywrightServer.takeScreenshot (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10691:34)
+    at Object.onReceiveHalfClose (C:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1347:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:564:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:604:14)
+    at ServerHttp2Stream.<anonymous> (C:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:372:18)
+    at ServerHttp2Stream.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-07-06T23:30:20.223Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2024-07-06T23:30:20.272Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:20.272Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:20.275Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:20.275Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:20.279Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Changed active context"}
+{"level":30,"time":"2024-07-06T23:30:20.281Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:20.281Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:20.283Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-07-06T23:30:20.283Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-07-06T23:30:20.285Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-07-06T23:30:20.286Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-07-06T23:30:20.290Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:20.290Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:20.292Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Changed active context"}
+{"level":30,"time":"2024-07-06T23:30:20.293Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-07-06T23:30:20.302Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-07-06T23:30:20.309Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:20.309Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-06T23:30:20.370Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-07-06T23:30:20.546Z","pid":5376,"hostname":"DESKTOP-880DM8H","msg":"End of node method closeAllBrowsers"}
